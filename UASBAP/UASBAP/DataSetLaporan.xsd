@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetLaporan" targetNamespace="http://tempuri.org/DataSetLaporan.xsd" xmlns:mstns="http://tempuri.org/DataSetLaporan.xsd" xmlns="http://tempuri.org/DataSetLaporan.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetLaporan" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSetLaporan" msprop:Generator_UserDSName="DataSetLaporan">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataLaporan" msprop:Generator_TableClassName="DataLaporanDataTable" msprop:Generator_TableVarName="tableDataLaporan" msprop:Generator_TablePropName="DataLaporan" msprop:Generator_RowDeletingName="DataLaporanRowDeleting" msprop:Generator_RowChangingName="DataLaporanRowChanging" msprop:Generator_RowEvHandlerName="DataLaporanRowChangeEventHandler" msprop:Generator_RowDeletedName="DataLaporanRowDeleted" msprop:Generator_UserTableName="DataLaporan" msprop:Generator_RowChangedName="DataLaporanRowChanged" msprop:Generator_RowEvArgName="DataLaporanRowChangeEvent" msprop:Generator_RowClassName="DataLaporanRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NomorAkun" msprop:Generator_ColumnVarNameInTable="columnNomorAkun" msprop:Generator_ColumnPropNameInRow="NomorAkun" msprop:Generator_ColumnPropNameInTable="NomorAkunColumn" msprop:Generator_UserColumnName="NomorAkun" type="xs:string" minOccurs="0" />
+              <xs:element name="NomorSubAkun" msprop:Generator_ColumnVarNameInTable="columnNomorSubAkun" msprop:Generator_ColumnPropNameInRow="NomorSubAkun" msprop:Generator_ColumnPropNameInTable="NomorSubAkunColumn" msprop:Generator_UserColumnName="NomorSubAkun" type="xs:string" minOccurs="0" />
+              <xs:element name="NamaTransaksi" msprop:Generator_ColumnVarNameInTable="columnNamaTransaksi" msprop:Generator_ColumnPropNameInRow="NamaTransaksi" msprop:Generator_ColumnPropNameInTable="NamaTransaksiColumn" msprop:Generator_UserColumnName="NamaTransaksi" type="xs:string" minOccurs="0" />
+              <xs:element name="Jumlah" msprop:Generator_ColumnVarNameInTable="columnJumlah" msprop:Generator_ColumnPropNameInRow="Jumlah" msprop:Generator_ColumnPropNameInTable="JumlahColumn" msprop:Generator_UserColumnName="Jumlah" type="xs:long" minOccurs="0" />
+              <xs:element name="Tanggal" msprop:Generator_ColumnVarNameInTable="columnTanggal" msprop:Generator_ColumnPropNameInRow="Tanggal" msprop:Generator_ColumnPropNameInTable="TanggalColumn" msprop:Generator_UserColumnName="Tanggal" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="TipeAkun" msprop:Generator_ColumnVarNameInTable="columnTipeAkun" msprop:Generator_ColumnPropNameInRow="TipeAkun" msprop:Generator_ColumnPropNameInTable="TipeAkunColumn" msprop:Generator_UserColumnName="TipeAkun" type="xs:string" minOccurs="0" />
+              <xs:element name="JenisAkun" msprop:Generator_ColumnVarNameInTable="columnJenisAkun" msprop:Generator_ColumnPropNameInRow="JenisAkun" msprop:Generator_ColumnPropNameInTable="JenisAkunColumn" msprop:Generator_UserColumnName="JenisAkun" type="xs:string" minOccurs="0" />
+              <xs:element name="NamaSubAkun" msprop:Generator_ColumnVarNameInTable="columnNamaSubAkun" msprop:Generator_ColumnPropNameInRow="NamaSubAkun" msprop:Generator_ColumnPropNameInTable="NamaSubAkunColumn" msprop:Generator_UserColumnName="NamaSubAkun" type="xs:string" minOccurs="0" />
+              <xs:element name="Tanggal_To" msprop:Generator_ColumnVarNameInTable="columnTanggal_To" msprop:Generator_ColumnPropNameInRow="Tanggal_To" msprop:Generator_ColumnPropNameInTable="Tanggal_ToColumn" msprop:Generator_UserColumnName="Tanggal_To" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
